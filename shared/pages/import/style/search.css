@@ -111,7 +111,7 @@ html[dir="rtl"] #no-result {
 
 #search-view > section {
   position: absolute;
-  top: 3.7rem;
+  top: 6.5rem;
   left: 0;
   right: 0;
   height: calc(100% - 3.7rem);
@@ -155,11 +155,17 @@ html[dir="rtl"] #no-result {
 }
 
 span.highlight {
-  background-color: #b2f2ff;
+  background-color: #ffff00;
 }
-
 
 #searchview-container p input::-moz-placeholder,
 #search-container p input::-moz-placeholder {
   background: none;
+}
+
+#searchview-container {
+  background: #ffffff;
+  border-bottom: 0.1rem solid #e7e7e7;
+  height: 5.5rem;
+  border: 1rem solid #867979;
 }

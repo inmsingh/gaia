@@ -528,7 +528,7 @@ contacts.List = (function() {
     var display = getDisplayName(contact);
     var nameElement = getHighlightedName(display);
     container.appendChild(nameElement);
-    renderOrg(contact, container, true);
+//    renderOrg(contact, container, true);
 
     container.dataset.rendered = true;
     return container;
